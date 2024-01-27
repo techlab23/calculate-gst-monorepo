@@ -1,0 +1,23 @@
+{
+  "name": "example-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsc -w & nodemon dist/index.js",
+    "test": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/bignumber.js": "^5.0.0",
+    "@types/dinero.js": "^1.9.4",
+    "bignumber.js": "^9.1.2",
+    "dinero.js": "^1.9.1",
+    "gst-utils": "workspace:^",
+    "nodemon": "^3.0.3",
+    "typescript": "^5.3.3",
+    "vitest": "^1.2.1"
+  }
+}

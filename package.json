@@ -1,0 +1,15 @@
+{
+  "name": "calculate-gst",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "gst-utils:test": "pnpm --filter gst-utils test",
+    "gst-utils:build": "pnpm --filter gst-utils build",
+    "dinero-app:dev": "pnpm --filter dinero-app dev",
+    "dinero-app:test": "pnpm --filter dinero-app test",
+    "dev": "pnpm run dinero-app:dev"
+  },
+  "keywords": [],
+  "author": "Shirish Nigam",
+  "license": "ISC"
+}
